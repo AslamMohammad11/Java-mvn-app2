@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flipkart</title>
+    <title>Image-Free Website</title>
     <style>
         /* Basic styling for demonstration purposes */
         body {
@@ -11,15 +11,16 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #f0f0f0;
         }
         header {
-            background-color: #2874f0;
+            background-color: #333;
             color: #fff;
             padding: 10px 0;
             text-align: center;
         }
         nav {
-            background-color: #333;
+            background-color: #444;
             color: #fff;
             padding: 10px 0;
             text-align: center;
@@ -34,34 +35,23 @@
             color: #58a;
         }
         .main-content {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            flex-wrap: wrap;
             padding: 20px;
-        }
-        .product {
-            width: 300px;
-            margin: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
-        .product img {
-            max-width: 100%;
-            height: auto;
+        .section {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 2em;
             margin-bottom: 10px;
         }
-        .product h3 {
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
-        .product p {
-            color: #888;
-            font-size: 0.9em;
+        .section p {
+            font-size: 1.1em;
+            color: #666;
         }
         footer {
             background-color: #333;
@@ -76,42 +66,34 @@
 </head>
 <body>
     <header>
-        <h1>Flipkart</h1>
+        <h1>Image-Free Website</h1>
     </header>
     <nav>
-        <a href="#electronics">Electronics</a>
-        <a href="#clothing">Clothing</a>
-        <a href="#books">Books</a>
-        <a href="#home-furniture">Home & Furniture</a>
-        <a href="#sports">Sports</a>
-        <a href="#toys">Toys</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
     </nav>
     <div class="main-content">
-        <div class="product">
-            <img src="product1.jpg" alt="Product 1">
-            <h3>Product Name</h3>
-            <p>Description of the product. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>$99.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <img src="product2.jpg" alt="Product 2">
-            <h3>Product Name</h3>
-            <p>Description of the product. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>$149.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <img src="product3.jpg" alt="Product 3">
-            <h3>Product Name</h3>
-            <p>Description of the product. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>$199.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <!-- Repeat more products as needed -->
+        <section id="home" class="section">
+            <h2>Welcome to Our Website</h2>
+            <p>This website showcases the beauty of minimal design without images.</p>
+        </section>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>We are a creative team dedicated to crafting amazing web experiences.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <p>We provide a range of services including web design, development, and consultation.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us via email at info@example.com or call us at +123456789.</p>
+        </section>
     </div>
     <footer>
-        <p>&copy; 2024 Flipkart. All rights reserved.</p>
+        <p>&copy; 2024 Image-Free Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
